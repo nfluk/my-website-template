@@ -11,7 +11,6 @@ body {
   color: #fff;
   font-size: 1.5rem;
   border: 1px solid #bbb;
-  border-radius: 0.2rem;
   transition: all 0.3s linear;
 }
 
@@ -45,6 +44,38 @@ a {
 
 .right-side {
   margin-left: auto;
+}
+
+/* COVER */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50svh;
+}
+
+/* GRID */
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.box > img {
+  width: 100%;
+}
+
+.box {
+  padding: 7rem;
+  background-color: #444;
+  border: 1px solid goldenrod;
+  border-radius: 0.3rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
